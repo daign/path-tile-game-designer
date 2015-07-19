@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;
+}
+h1 {
+	margin: 0px 0px 10px 0px;
+}
+h2 {
+	margin: 10px 0px 10px 0px;
+}
+p {
+	margin: 10px 0px 10px 0px;
+}
+
+.info {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+}
+.photo {
+	float: right;
+	width: 300px;
+	height: 300px;
+}
+.colorBox {
+	text-align: center;
+	background: #ddd;
+	border-radius: 5px;
+}
+.colorInput {
+	width: 80px;
+}
+.colorName {
+	font-size: small;
+	font-stretch: condensed;
+	padding: 3px 0px 5px 0px;
+}
+.smallPrint {
+	font-size: small;
+}
+
+@media print {
+	.info {
+		display: none;
+	}
+}
+
